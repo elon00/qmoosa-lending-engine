@@ -1,0 +1,26 @@
+{
+  "name": "@qmoosa/lending-engine",
+  "version": "1.0.0",
+  "description": "Decentralized Lending & Borrowing Engine — Health factor state machine, risk monitor, and liquidation engine",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test tests/engine.test.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "qmoosa",
+    "lending",
+    "engine",
+    "defi",
+    "liquidation"
+  ],
+  "author": "elon00",
+  "license": "MIT"
+}
